@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>Moj E-Info</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<style>
+th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.paddingBetweenCols td {
+  padding: 0 15px;
+}
+th,td}
+{
+padding:5px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+th,td{
+  background-color: white;
+}
+.logout {
+  display: none;
+}
+/* Styles for the logout button */
+.logout-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #e74c3c; /* Red color, you can change it to your desired color */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the logout button */
+.logout-button:hover {
+  background-color: #c0392b; /* Darker red color on hover, change it accordingly */
+}
+</style>	
+</head>
+<body style="background-color:lightblue">
+<a href="Prijavi se.html" class="logout-button">Odjavi se</a>
+<h1 style="text-align:center;font-size:60px;color:black;">Moj E-Info</h1>
+<table class="center" style="width:570px;text-align:center;">
+<tr>
+   <th colspan="4">Osnovni podaci</th>
+   <th rowspan="2">Pošalji mail učeniku</th>
+</tr>
+<tr>
+   <th>Slika</th>
+   <th>Ime</th>
+   <th>Prezime</th>
+   <th>Telefon</th>
+</tr>
+<tr>
+   <td><img src="musko.jpg" alt="Muško"width="50"height="50"></td>
+   <td>Marko</td>
+   <td>Marković</td>
+   <td>064 546789</td>
+   <td><a href="mailto:djukicdusan.29@gmail.com">Marko Marković</a></td>
+</tr>
+<tr>
+   <td><img src="musko.jpg" alt="Muško"width="50"height="50"></td>
+   <td>Luka</td>
+   <td>Rakić</td>
+   <td>069 886152</td>
+   <td><a href="mailto:djukicdusan.29@gmail.com">Luka Rakić</a></td>
+</tr>
+<tr>
+   <td><img src="zensko.jpg" alt="Žensko"width="50"height="50"></td>
+   <td>Petra</td>
+   <td>Simić</td>
+   <td>062 413097</td>
+   <td><a href="mailto:djukicdusan.29@gmail.com">Petra Simić</a></td>
+</tr>
+<tr>
+   <th colspan="5"><a href="ocene.html">KLIKNI OVDE KAKO BI PRISTUPIO OCENAMA</a></th>
+</table>
+
+
+<script type = "text/javascript" >
+   function preventBack(){window.history.forward();}
+    setTimeout("preventBack()", 0);
+    window.onunload=function(){null};
+</script>
+
+</body>
+</html>

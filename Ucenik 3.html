@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<title>Ocene - Petra Simić</title>
+<meta charset="UTF-8">
+<style>
+th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.paddingBetweenCols td {
+  padding: 0 15px;
+}
+th,td}
+{
+padding:5px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+th,td{
+  background-color: white;
+}
+/* Styles for the logout button */
+.logout-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #e74c3c; /* Red color, you can change it to your desired color */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the logout button */
+.logout-button:hover {
+  background-color: #c0392b; /* Darker red color on hover, change it accordingly */
+}
+/* Styles for the back button */
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: blue; /* Red color, you can change it to your desired color */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the back button */
+.back-button:hover {
+  background-color: blue; /* Darker red color on hover, change it accordingly */
+}
+</style>
+</head>
+<body style="background-color:lightblue">
+<a href="Prijavi se.html" class="logout-button">Odjavi se</a>
+<a href="Ocene.html" class="back-button">Vrati se na ocene!</a>
+<h1 style="color:black;text-align:center;font-size:57px">Ocene <br>- Petra Simić -</h1>
+<table class="center" style="width:600px;height:300px;text-align:center;">
+<tr>
+   <th colspan="7">Predmeti</th>
+</tr>
+<tr>
+   <th>Matematika</th>
+   <th>Fizika</th>
+   <th>Hemija</th>
+   <th>Likovno</th>
+   <th>Biologija</th>
+   <th>Programiranje</th>
+   <th>Geografija</th>
+</tr>
+<tr>
+   <td>1</td>
+   <td>4</td>
+   <td>3</td>
+   <td>5</td>
+   <td>3</td>
+   <td>3</td>
+   <td>5</td>
+</tr>
+<tr>
+   <td>2</td>
+   <td>4</td>
+   <td>5</td>
+   <td>2</td>
+   <td>3</td>
+   <td>1</td>
+   <td>5</td>
+</tr>
+<tr>
+   <td>5</td>
+   <td>2</td>
+   <td>5</td>
+   <td>4</td>
+   <td>3</td>
+   <td>5</td>
+   <td>5</td>
+</tr>
+<tr>
+   <td>4</td>
+   <td>3</td>
+   <td>5</td>
+   <td>1</td>
+   <td>5</td>
+   <td>5</td>
+   <td>3</td>
+</tr>
+</table>
+
+<script type = "text/javascript" >
+   function preventBack(){window.history.forward();}
+    setTimeout("preventBack()", 0);
+    window.onunload=function(){null};
+</script>
+
+</body>
+</html>
